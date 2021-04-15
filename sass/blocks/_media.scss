@@ -79,6 +79,35 @@
             margin: 0 auto;
         }
     }
+    .slick-dots{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding-left: 15%;
+        margin-top: 35px;
+        li {
+            list-style: none;
+            margin: 0 10px;
+
+        }
+        button {
+
+            font-size: 0;
+            width: 25px;
+            height: 25px;
+            background-color: black;
+            border-radius: 100%;
+            border: 1px solid black;
+        }
+    }
+    .carousel {
+        overflow: hidden;
+        &__inner {
+            img {
+                width: 350px;
+            }
+        }
+    }
 }
 @media (max-width: 767px) {
     .promo {
