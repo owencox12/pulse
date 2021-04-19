@@ -8,17 +8,30 @@
     font-size: 12px;
     font-weight: 500;
     text-transform: uppercase;
+    transition: all 0.5s;
+    &:hover {
+        box-shadow: 2px 5px 10px #000;
+    }
     &-main {
         margin-top: 67px;
         width: 300px;
         height: 50px;
         font-size: 16px;
         margin-bottom: 18px;
+        transition: all 0.5s;
+        &:hover {
+            box-shadow: 5px 10px 20px #000;
+        }
     }
     &-form {
         width: 300px;
         height: 55px;
         font-size: 16px;
+        transition-property: border;
+        transition-duration: 0.5s;
+        &:hover {
+            border: 2px solid #000;
+        }
     }
     &_mini {
         width: 131px;

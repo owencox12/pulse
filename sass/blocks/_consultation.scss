@@ -10,5 +10,14 @@
         margin-top: 60px;
         margin-bottom: 36px;
     }
+    label.error {
+        border: none;
+        margin-bottom: 15px;
+        color: white;
+    }
+    .error {
+        border: 2px solid red;
+        text-align: center;
+    }
     
 }
