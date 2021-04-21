@@ -89,12 +89,18 @@ $(document).ready(function(){
             data: $(this).serialize()
         }).done(function(){
             $(this).find("input").val("");
+<<<<<<< HEAD
+=======
+            $('#consultation, #order').fadeOut();
+            $('.overlay, #thanks').fadeIn('slow');
+>>>>>>> 1ed6889a70cef10f487c21df6f5525c415973f78
 
 
             $('form').trigger('reset');
         });
         return false;
       });
+<<<<<<< HEAD
       // Smooth scroll
       $(window).scroll(function(){
         if ($(this).scrollTop() > 1600){
@@ -110,4 +116,6 @@ $(document).ready(function(){
         return false;
 });
 
+=======
+>>>>>>> 1ed6889a70cef10f487c21df6f5525c415973f78
   });
